@@ -43,7 +43,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.15 }}
           className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-cream leading-[1.1] mb-8"
         >
-          Beyond Gifting,
+          Beyond Experience,
           <br />
           <span className="text-gradient-gold">Into Delight</span>
         </motion.h1>
@@ -56,7 +56,7 @@ export default function HeroSection() {
         >
           We craft bespoke gifting experiences for events, onboarding, and
           corporate moments. From creative storytelling to flawless
-          execution&mdash;every detail designed to transcend expectations
+          execution&mdash;every detail designed to transcend expectations.
         </motion.p>
 
         <motion.div
