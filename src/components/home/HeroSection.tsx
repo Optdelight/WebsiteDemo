@@ -43,7 +43,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.15 }}
           className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-cream leading-[1.1] mb-8"
         >
-          Beyond Experience,
+          Beyond Experience
           <br />
           <span className="text-gradient-gold">Into Delight</span>
         </motion.h1>
