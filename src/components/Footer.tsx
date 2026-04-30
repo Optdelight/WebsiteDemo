@@ -123,7 +123,7 @@ export default function Footer() {
                   href="mailto:hello@optdelight.com"
                   className="text-sm text-muted hover:text-cream transition-colors"
                 >
-                  hello@optdelight.com
+                  info@optdelight.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -132,13 +132,13 @@ export default function Footer() {
                   href="tel:+910000000000"
                   className="text-sm text-muted hover:text-cream transition-colors"
                 >
-                  +91 00000 00000
+                  +91 9717463428
                 </a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={16} className="text-gold mt-0.5 shrink-0" />
                 <span className="text-sm text-muted">
-                  India
+                  Bangalore, Gurugram
                 </span>
               </li>
             </ul>

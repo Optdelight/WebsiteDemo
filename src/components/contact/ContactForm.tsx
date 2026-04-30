@@ -38,7 +38,7 @@ export default function ContactForm() {
                     href="mailto:hello@optdelight.com"
                     className="text-cream hover:text-gold transition-colors"
                   >
-                    hello@optdelight.com
+                    info@optdelight.com
                   </a>
                 </div>
               </div>
@@ -54,7 +54,7 @@ export default function ContactForm() {
                     href="tel:+910000000000"
                     className="text-cream hover:text-gold transition-colors"
                   >
-                    +91 00000 00000
+                    +91 9717463428
                   </a>
                 </div>
               </div>
@@ -64,9 +64,20 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <p className="text-xs uppercase tracking-[0.2em] text-gold mb-1">
-                    Location
+                    Locations
                   </p>
-                  <p className="text-cream">India</p>
+                  <p className="text-cream">Bangalore, Gurugram</p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="h-10 w-10 rounded-full border border-gold/20 flex items-center justify-center shrink-0">
+                  <MapPin size={16} className="text-gold" />
+                </div>
+                <div>
+                  <p className="text-xs uppercase tracking-[0.2em] text-gold mb-1">
+                    Address
+                  </p>
+                  <p className="text-cream">A-1, IGNOU Rd, Near Harmony School, New Delhi 110030</p>
                 </div>
               </div>
             </div>

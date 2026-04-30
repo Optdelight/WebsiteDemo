@@ -32,7 +32,7 @@ export default function HeroSection() {
         >
           <Sparkles size={14} className="text-gold" />
           <span className="text-xs uppercase tracking-[0.3em] text-gold">
-            Custom Gifting Solutions
+            Custom Solutions
           </span>
           <Sparkles size={14} className="text-gold" />
         </motion.div>
@@ -75,12 +75,12 @@ export default function HeroSection() {
               className="group-hover:translate-x-1 transition-transform"
             />
           </Link>
-          <Link
+          {/* <Link
             href="/portfolio"
             className="px-8 py-4 border border-gold/30 text-gold text-sm uppercase tracking-[0.15em] hover:border-gold/60 hover:bg-gold/5 transition-all duration-300"
           >
             View Our Work
-          </Link>
+          </Link> */}
         </motion.div>
 
         {/* Scroll indicator */}
