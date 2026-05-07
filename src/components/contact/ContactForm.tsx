@@ -66,7 +66,7 @@ export default function ContactForm() {
                   <p className="text-xs uppercase tracking-[0.2em] text-gold mb-1">
                     Locations
                   </p>
-                  <p className="text-cream">Bangalore, Gurugram</p>
+                  <p className="text-cream">Delhi, Mumbai, Bangalore</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -75,7 +75,7 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <p className="text-xs uppercase tracking-[0.2em] text-gold mb-1">
-                    Address
+                    Registered Office
                   </p>
                   <p className="text-cream">A-1, IGNOU Rd, Near Harmony School, New Delhi 110030</p>
                 </div>

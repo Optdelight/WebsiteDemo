@@ -37,7 +37,7 @@ export default function Header() {
           : "bg-transparent py-5"
       }`}
     >
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 flex items-center justify-between">
+      <div className="px-6 lg:px-8 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="group flex items-center gap-3" style={{ display: "contents" }}>
           {/* <div className="relative h-10 w-10 rounded-full border border-gold/40 flex items-center justify-center overflow-hidden group-hover:border-gold transition-colors duration-300">
