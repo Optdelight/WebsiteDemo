@@ -30,7 +30,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-3 mb-6">
-              <div className="h-10 w-10 rounded-full border border-gold/40 flex items-center justify-center">
+              {/* <div className="h-10 w-10 rounded-full border border-gold/40 flex items-center justify-center">
                 <span className="text-gradient-gold font-serif text-xl font-bold">
                   O
                 </span>
@@ -42,7 +42,10 @@ export default function Footer() {
                 <span className="text-[10px] uppercase tracking-[0.3em] text-muted">
                   Beyond Gifting
                 </span>
-              </div>
+              </div> */}
+             
+        <img src="../../images/OD-logo-transparent.png" alt="OD-logo" style={{ height: "70px" }} />
+    
             </Link>
             <p className="text-sm text-muted leading-relaxed mb-6">
               Crafting bespoke gifting experiences that transcend expectations.
