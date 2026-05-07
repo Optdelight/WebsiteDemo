@@ -39,7 +39,7 @@ export default function Header() {
     >
       <div className="mx-auto max-w-7xl px-6 lg:px-8 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="group flex items-center gap-3">
+        <Link href="/" className="group flex items-center gap-3" style={{ display: "contents" }}>
           {/* <div className="relative h-10 w-10 rounded-full border border-gold/40 flex items-center justify-center overflow-hidden group-hover:border-gold transition-colors duration-300">
             <span className="text-gradient-gold font-serif text-xl font-bold">
               O
@@ -56,7 +56,7 @@ export default function Header() {
         </Link>
 
         <div>
-        <img src="../../images/OD-logo-transparent.png" alt="OD-logo" style={{ height: "85px" }} />
+        <img src="../../images/OD-logo-transparent.png" alt="OD-logo" style={{ height: "70px" }} />
         </div>
 
         {/* Desktop Nav */}
