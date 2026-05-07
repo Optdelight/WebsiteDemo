@@ -6,7 +6,7 @@ import { ArrowRight, Sparkles } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-background">
       <img src="../../images/hero-banner.png" alt="Banner" style={{ width: "stretch" }} />
@@ -53,7 +53,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.3 }}
-          className="text-lg md:text-xl text-muted max-w-2xl mx-auto mb-12 leading-relaxed"
+          className="text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed"
         >
           We craft bespoke gifting experiences for events, onboarding, and
           corporate moments. From creative storytelling to flawless
