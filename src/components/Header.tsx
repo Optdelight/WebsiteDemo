@@ -40,7 +40,7 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="group flex items-center gap-3">
-          <div className="relative h-10 w-10 rounded-full border border-gold/40 flex items-center justify-center overflow-hidden group-hover:border-gold transition-colors duration-300">
+          {/* <div className="relative h-10 w-10 rounded-full border border-gold/40 flex items-center justify-center overflow-hidden group-hover:border-gold transition-colors duration-300">
             <span className="text-gradient-gold font-serif text-xl font-bold">
               O
             </span>
@@ -52,8 +52,12 @@ export default function Header() {
             <span className="text-[10px] uppercase tracking-[0.3em] text-muted">
               Beyond Gifting
             </span>
-          </div>
+          </div> */}
         </Link>
+
+        <div>
+        <img src="../../images/OD-logo-transparent.png" alt="OD-logo" style={{ height: "85px" }} />
+        </div>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
