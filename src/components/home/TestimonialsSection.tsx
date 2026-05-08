@@ -27,7 +27,7 @@ const testimonials = [
 
 export default function TestimonialsSection() {
   return (
-    <section className="py-24 md:py-32 relative">
+    <section className="py-24 md:py-32 relative hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(201,169,110,0.05)_0%,transparent_70%)]" />
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
