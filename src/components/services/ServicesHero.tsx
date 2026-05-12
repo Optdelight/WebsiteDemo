@@ -31,7 +31,7 @@ export default function ServicesHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="text-muted text-lg max-w-2xl mx-auto leading-relaxed"
+          className="text-lg max-w-2xl mx-auto leading-relaxed"
         >
           From high-end onboarding kits to event giveaways that attendees
           treasure&mdash;every service is tailored to create moments that matter.

@@ -31,7 +31,7 @@ export default function ContactHero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="text-muted text-lg max-w-2xl mx-auto leading-relaxed"
+          className="text-lg max-w-2xl mx-auto leading-relaxed"
         >
           Tell us about your vision. Whether it&apos;s a single bespoke gift or
           a thousand curated kits, we&apos;d love to hear from you.
