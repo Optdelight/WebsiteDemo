@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 export default function AboutHero() {
   return (
     <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
-      <img src="../../images/about.png" alt="About_Banner" style={{ width: "stretch" }} />
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(201,169,110,0.06)_0%,transparent_70%)]" />
-
+      
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(201,169,110,0.06)_0%,transparent_70%)]">
+      <img src="../../images/about-banner.png" alt="About_Banner" style={{ width: "stretch" }} />
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8 text-center">
         <motion.span
           initial={{ opacity: 0, y: 10 }}
@@ -35,6 +35,7 @@ export default function AboutHero() {
           We exist to bridge the gap between ordinary corporate gifts and
           extraordinary experiences that leave a lasting impression.
         </motion.p>
+      </div>
       </div>
     </section>
   );
