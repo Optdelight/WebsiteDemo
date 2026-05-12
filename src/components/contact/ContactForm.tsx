@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Send, Mail, Phone, MapPin } from "lucide-react";
+import { Send, Mail, Phone, MapPin, Landmark } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
 
 const serviceOptions = [
@@ -71,7 +71,7 @@ export default function ContactForm() {
               </div>
               <div className="flex items-start gap-4">
                 <div className="h-10 w-10 rounded-full border border-gold/20 flex items-center justify-center shrink-0">
-                  <MapPin size={16} className="text-gold" />
+                  <Landmark size={16} className="text-gold" />
                 </div>
                 <div>
                   <p className="text-xs uppercase tracking-[0.2em] text-gold mb-1">
