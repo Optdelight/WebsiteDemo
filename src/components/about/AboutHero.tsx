@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 export default function AboutHero() {
   return (
     <section className="relative pt-32 pb-20 md:pt-40 md:pb-28 overflow-hidden">
+      <img src="../../images/about.png" alt="About_Banner" style={{ width: "stretch" }} />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(201,169,110,0.06)_0%,transparent_70%)]" />
 
       <div className="relative mx-auto max-w-7xl px-6 lg:px-8 text-center">
